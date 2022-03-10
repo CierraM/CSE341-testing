@@ -4,7 +4,7 @@ exports.getUsers = (req, res, next) => {
     res.status(200).json(usersData)
 }
 
-exports.postUser = (req, res, next) => {
+exports.postUser = async (req, res, next) => {
 
     const firstName = req.body.firstName;
     const lastName = req.body.lastName;
