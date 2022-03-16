@@ -1,4 +1,3 @@
-const usersData = require('../data/users')
 const User = require('../model/user')
 
 exports.getUsers = (req, res, next) => {
